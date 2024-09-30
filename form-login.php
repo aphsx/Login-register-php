@@ -15,6 +15,7 @@
             <input name="password_account" type="password" placeholder="password" required>
         </div>
         <button>Login</button>
+        <a href="form-register.php">Create account?</a>
     </form>
 </body>
 </html>
