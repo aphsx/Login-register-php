@@ -7,14 +7,14 @@
 </head>
 <body>
     <h1>Login</h1>
-    <form action="" method="POST">
+    <form action="process-login.php" method="POST">
         <div>
             <input name="email_account" type="email" placeholder="email" required>
         </div>
         <div>
             <input name="password_account" type="password" placeholder="password" required>
         </div>
-        <button>Login</button>
+        <button typr="submit">Login</button>
         <a href="form-register.php">Create account?</a>
     </form>
 </body>

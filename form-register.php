@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Register</h1>
-    <form action="" method="POST">
+    <form action="process-register.php" method="POST">
         <div>
             <input name="username_account" type="text" placeholder="User name" required>
         </div>
@@ -19,13 +19,10 @@
             <input name="password_account1" type="text" placeholder="password" required>
         </div>
         <div>
-            <input name="password_account12" type="text" placeholder="verify password" required>
+            <input name="password_account2" type="text" placeholder="verify password" required>
         </div>
 
-        <button>
-            Register
-        </button>
-
+        <button type="submit">Register</button>
         <a href="form-login.php">Have account?</a>
     </form>
 </body>
