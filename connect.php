@@ -1,4 +1,9 @@
 <?php
+
+if($open_connect !=1){
+    die(header("Location: form-login.php"));
+}
+
 $hostname = "localhost";
 $username = "root";
 $password = "";
